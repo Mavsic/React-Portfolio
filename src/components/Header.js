@@ -1,9 +1,9 @@
 import React  from 'react';
 import {
     HashRouter as Router,
-    Switch,
-    Route,
-    Redirect
+    
+    Route
+   
 } from "react-router-dom";
 import About from '../components/About';
 import Portfolio from '../components/Portfolio';
@@ -15,9 +15,9 @@ function Header() {
     return (
         <Router>
             <NavBar/>
-            <Switch>
-                <Route exact path="/">
-                    <Redirect to="/about" />
+            {/* <Switch> */}
+                <Route exact path="/about">
+                    {/* <Redirect to="/about" /> */}
                 </Route>
                 <Route path="/about">
                     <About />
@@ -27,7 +27,7 @@ function Header() {
                 <Route path="/resume">
                     <Resume />
                 </Route>
-            </Switch>
+            {/* </Switch> */}
         </Router>
     )
 }
