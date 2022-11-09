@@ -5,7 +5,7 @@ import '../portfolio.css';
 function ProjectCards(props) {
     return (
         <div className={`grid-item gallery__item--${props.id}`}>
-            <img src={props.image} alt={props.name}
+            <img src={props.image} alt={props.name} 
                  className="gallery__img"/>
             <div className="desc">
                 <h5>{props.name}</h5>

@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolio from '../data';
-import ProjectCards from '../components/project';
+import ProjectCards from './project';
 import '../App.css';
 import '../portfolio.css';
 
@@ -21,7 +21,6 @@ const Portfolio = () => {
                                     {portfolio.map((project) => (
                                         <ProjectCards
                                             id={project.id}
-                                            key={project.id}
                                             image={project.image}
                                             name={project.name}
                                             github={project.github}

@@ -1,22 +1,22 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import ContactForm from '../components/contact-form';
+import {Container, Row, Col} from 'react-bootstrap';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+import ContactForm from '../components/ContactForm';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import '../App.css';
 
 function Contact() {
   return (
     <div className='container'>
-        <Jumbotron fluid className="p-5 mb-0">
+       
             <Container className="text-center">
                 <div className="p-md-5">
                     <h1>Get in Touch</h1>
                 </div>
             </Container>
-        </Jumbotron>
+       
 
         <Container fluid className="shadow bg-light mb-5">
             <Container className="p-4">
