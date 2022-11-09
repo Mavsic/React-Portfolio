@@ -1,6 +1,6 @@
-# React Portfoli
+# React Portfolio
 
-Goal of the project is to create portfolio using react library which will depict skills accured during bootcamp cource.
+Goal of the project is to create portfolio using react library which will depict skills accured during bootcamp.
 
 ## User Story
 
@@ -38,5 +38,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Links
 
+### GitHub
+
 https://github.com/Mavsic/React-Portfolio
+
+### GitHub Pages
+
 https://mavsic.github.io/React-Portfolio/
